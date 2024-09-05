@@ -82,26 +82,24 @@ Kokeillaan hakea lokit toista kautta:<br>
 ![imagevarlog](https://github.com/user-attachments/assets/575d8183-423d-4166-8aac-9561810126bb)
 <br>
 Lokien analysointi onkin hieman hankalampi asia, yritän lonkalta ensin ja sitten haen tietoa internetistä.<br><br>
-Vasemmalla näkyy 127.0.0.1, tämä on localhost IP-osoite.
-Päivämäärän jälkeen lukee GET, en tiedä mitä tässä tarkoittanee, paitsi jonkun asian hakemista. 
-Sen jälkeen /icons/openlogo-75.png, selkeästi joku kuvatiedosto logosta. "Mozilla/5.0", olisikohan Firefoxin versio, tai tuo "Firefox/115.0".<br><br>
+Vasemmalla näkyy 127.0.0.1, tämä on localhost IP-osoite.<br>
+Päivämäärän jälkeen lukee GET, en tiedä mitä tässä tarkoittanee, paitsi jonkun asian hakemista.<br>
+Sen jälkeen /icons/openlogo-75.png, selkeästi joku kuvatiedosto logosta.<br>
+"Mozilla/5.0", olisikohan Firefoxin versio, tai tuo "Firefox/115.0".<br>
 
-Arvailut sikseen, aika etsiä tietoa. Varsin hyvät ohjeet löytyy täältä: https://www.sumologic.com/blog/apache-access-log/.<br><br>
+Arvailut sikseen, aika etsiä tietoa. Kohtalaiset ohjeet löysin täältä: https://www.sumologic.com/blog/apache-access-log/.<br>
+Lisäksi käytin myös tätä: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status.<br>
+Sekä: https://disjoint.ca/til/2016/05/17/how-to-determine-the-file-size-of-a-remote-http-object/.<br>
 
 Eli ensimmäisenä **127.0.0.1** IP osoite, josta pyyntö tuli.<br>
-**GET / HTTP/1.1** pyynnön tyyppi, sekä mitä pyydetään.<br>
-**200** HTTP vastauksen status koodi.<br>
-**6040** asiakkaalle palautetun objektin koko.<br>
+Tässä välissä itsestäänselvyytenä päivämäärä, sekä aika ja aikavyöhyke.<br>
+**GET / HTTP/1.1** pyynnön tyyppi, sekä "GET" ja "HTTP1.1" välissä se mitä pyydetään.<br>
+**200** HTTP vastauksen status koodi. "200" viittaa onnistuneeseen pyyntöön. Kyseessä on "GET" tyyppinen pyyntö, jolloin 200 tarkoittaa, että resurssi on onnistuneesti haettu ja toimitettu.<br>
+**6040** asiakkaalle palautetun objektin koko byteinä, eli tavuina, tässä tapauksessa 6040 tavua, eli 6040 bytes.<br>
+**http://localhost** viittaa osoitteeseen, josta pyyntö on tullut.<br>
+**Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0** on ympäristö, josta käyttäjä käyttää kyseistä palvelua. Tässä tapauksessa Mozilla Firefox Linuxilla.<br>
 
-
-
-
-
-
-
-
-
-
+*Valmis klo 13:49, aikaa kului 39min*
 
 ##
 
