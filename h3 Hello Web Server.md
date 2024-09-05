@@ -86,7 +86,13 @@ Vasemmalla näkyy 127.0.0.1, tämä on localhost IP-osoite.
 Päivämäärän jälkeen lukee GET, en tiedä mitä tässä tarkoittanee, paitsi jonkun asian hakemista. 
 Sen jälkeen /icons/openlogo-75.png, selkeästi joku kuvatiedosto logosta. "Mozilla/5.0", olisikohan Firefoxin versio, tai tuo "Firefox/115.0".<br><br>
 
-Arvailut sikseen, aika etsiä tietoa.
+Arvailut sikseen, aika etsiä tietoa. Varsin hyvät ohjeet löytyy täältä: https://www.sumologic.com/blog/apache-access-log/.<br><br>
+
+Eli ensimmäisenä **127.0.0.1** IP osoite, josta pyyntö tuli.<br>
+**GET / HTTP/1.1** pyynnön tyyppi, sekä mitä pyydetään.<br>
+**200** HTTP vastauksen status koodi.<br>
+**6040** asiakkaalle palautetun objektin koko.<br>
+
 
 
 
@@ -107,6 +113,7 @@ Arvailut sikseen, aika etsiä tietoa.
 
 ## Lähteet
 
+Fizpatrick, S. 2020. Understanding the Apache Access Log: View, Locate and Analyze. Luettavissa: https://www.sumologic.com/blog/apache-access-log/. Luettu 5.9.2024<br>
 Karvinen, T. 2018. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/. Luettu 5.9.2024<br>
 The Apache Foundation. 2024. Name-based Virtual Host Support. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html. Luettu 5.9.2024
 
