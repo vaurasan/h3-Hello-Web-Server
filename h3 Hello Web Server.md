@@ -32,11 +32,14 @@ Tätä on vaikea tiivistää, kun on kohtuullisen tiivis sivu jo valmiiksi:
 > $ sudo apt-get -y install apache2<br>
 > $ echo "Default"|sudo tee /var/www/html/index.html
 - Lisätään uusi Name Based Virtual Host
-> $ sudoedit /etc/apache2/sites-available/pyora.example.com.conf
-> $ cat /etc/apache2/sites-available/pyora.example.com.conf
+> $ sudoedit /etc/apache2/sites-available/pyora.example.com.conf<br>
+> $ cat /etc/apache2/sites-available/pyora.example.com.conf<br>
 > $ sudo a2ensite pyora.example.com
 - Uudelleenkäynnistetään eli restartataan apache2
 > $ sudo systemctl restart apache2
+- Luodaan web sivu normaalikäyttäjänä
+> $ mkdir -p /home/xubuntu/publicsites/pyora.example.com/<br>
+> $ echo pyora > /home/xubuntu/publicsites/pyora.example.com/index.html
 
 
 
