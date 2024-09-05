@@ -18,8 +18,12 @@ Käyttöjärjestelmä: Windows 11 Pro 23H2 22631.4037 Windows Feature Experience
 
 ## x) Lue ja tiivistä
 
-The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation:[Name-based Virtual Host Support](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)<br>
+The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation: [Name-based Virtual Host Support](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)<br>
 - Name-based virtual hostingissa palvelin luottaa asiakkaan ilmoittamaan isäntänimeen HTTP-otsikoissa
+- Name-based virtual hostingissa moni isäntä voi käyttää samaa IP-osoitetta
+- Name-based virtual hosting usein yksinkertaisempaa, kuin IP-based Virtual Host
+- Tulisi aina käyttää Name-based virtual hostingia, jos suinkin laitteisto ei muuta vaadi
+- 
 
 
 
