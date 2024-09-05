@@ -16,7 +16,10 @@
 
 Käyttöjärjestelmä: Windows 11 Pro 23H2 22631.4037 Windows Feature Experience Pack 1000.22700.1027.0
 
-## Otsikko
+## x) Lue ja tiivistä
+
+The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation:[Name-based Virtual Host Support](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)<br>
+- Name-based virtual hostingissa palvelin luottaa asiakkaan ilmoittamaan isäntänimeen HTTP-otsikoissa
 
 
 
@@ -29,7 +32,13 @@ Käyttöjärjestelmä: Windows 11 Pro 23H2 22631.4037 Windows Feature Experience
 ## Otsikko
 
 
+## Lähteet
 
+
+The Apache Foundation. 2024. Name-based Virtual Host Support. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html. Luettu 5.9.2024
+<br><br>
+
+---
 
 Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. http://www.gnu.org/licenses/gpl.html<br>
 Pohjana Tero Karvinen 2012: Linux kurssi, http://terokarvinen.com<br><br>
