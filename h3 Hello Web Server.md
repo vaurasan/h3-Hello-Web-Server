@@ -13,7 +13,8 @@
 | Kovalevy   | Crucial 256GB        | MX100 SSD     |
 | Virtalähde   | Asus 750W TUF Gaming Gold        | ATX 80 Plus Gold      |
 | Kotelo   | Phanteks Enthoo        | Pro Full Tower      |
-| Käyttöjärjestelmä   | Windows 11 Pro        | 23H2 22631.4037 Windows Feature Experience Pack 1000.22700.1027.0      |
+
+Käyttöjärjestelmä: Windows 11 Pro 23H2 22631.4037 Windows Feature Experience Pack 1000.22700.1027.0
 
 ## Otsikko
 
