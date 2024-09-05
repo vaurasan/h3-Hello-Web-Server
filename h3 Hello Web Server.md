@@ -44,9 +44,12 @@ Tätä on vaikea tiivistää, kun on kohtuullisen tiivis sivu jo valmiiksi:
 > $ curl -H 'Host: pyora.example.com' localhost<br>
 > $ curl localhost
 
+## a) Testaa, että weppipalvelimesi vastaa localhost-osoitteesta. Asenna Apache-weppipalvelin, jos se ei ole jo asennettuna.
 
+Aloitus 5.9.2024 klo 12:55
+Apache2 ehdin asentaa eilen tunnilla<br>
+> sudo apt-get install apache2<br>
 
-## Otsikko
 
 
 
