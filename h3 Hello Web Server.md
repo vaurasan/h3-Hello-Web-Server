@@ -50,9 +50,23 @@ Aloitus 5.9.2024 klo 12:55
 Apache2 ehdin asentaa eilen tunnilla<br>
 > sudo apt-get install apache2<br>
 
+Laitan seuraavan komennon, jotta apache2 käynnistyy, kun käyttöjärjestelmä käynnistyy:<br>
+> sudo systemctl enable --now apache2<br>
 
+![apache2now](https://github.com/user-attachments/assets/7703ac20-b2c8-47aa-a658-11d452ff7ea8)<br>
 
+Seuraavaksi kokeillaan localhostia:
+> curl http://localhost<br>
 
+Ruudulle tulee html:ää, joten oletan toimivan, kokeillaan vielä Firefoxilla<br>
+
+![toimii](https://github.com/user-attachments/assets/7cde5b4d-7fed-4d67-98c6-28c96543fa47)<br>
+
+Näkyy toimivan sekin:<br>
+
+![toimii2](https://github.com/user-attachments/assets/1e2a1ded-50bd-4f34-9aaf-fbc29133b736)<br>
+
+Klo 13:04 valmis, aikaa kului 9min.
 
 ## Otsikko
 
