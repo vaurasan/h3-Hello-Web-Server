@@ -23,8 +23,10 @@ The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentatio
 - Name-based virtual hostingissa moni isäntä voi käyttää samaa IP-osoitetta
 - Name-based virtual hosting usein yksinkertaisempaa, kuin IP-based Virtual Host
 - Tulisi aina käyttää Name-based virtual hostingia, jos suinkin laitteisto ei muuta vaadi
-- Historialliset syyt eivät enää päde IP-based Virtual hostingiin
-- 
+- Historialliset syyt eivät enää päde IP-based Virtual hostingiin<br>
+
+[Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
+
 
 
 
@@ -39,8 +41,11 @@ The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentatio
 
 ## Lähteet
 
-
+Karvinen, T. 2018. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/. Luettu 5.9.2024<br>
 The Apache Foundation. 2024. Name-based Virtual Host Support. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html. Luettu 5.9.2024
+
+
+
 <br><br>
 
 ---
