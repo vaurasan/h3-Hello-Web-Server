@@ -58,13 +58,15 @@ Laitan seuraavan komennon, jotta apache2 käynnistyy, kun käyttöjärjestelmä 
 Seuraavaksi kokeillaan localhostia komentokehotteessa:
 > curl http://localhost<br>
 
-Ruudulle tulee html:ää, eli localhost toimii, kokeillaan vielä Firefoxilla<br>
+Localhost toimii:<br>
 
 ![toimii](https://github.com/user-attachments/assets/7cde5b4d-7fed-4d67-98c6-28c96543fa47)<br>
 
-Näkyy toimivan sekin:<br>
+Kokeillaan vielä Firefoxilla:<br>
 
 ![toimii2](https://github.com/user-attachments/assets/1e2a1ded-50bd-4f34-9aaf-fbc29133b736)<br>
+
+Myös Firefoxilla toimii.<br>
 
 *Klo 13:04 valmis, aikaa kului 9min*
 
