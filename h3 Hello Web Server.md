@@ -81,7 +81,12 @@ Kokeillaan hakea lokit toista kautta:<br>
 
 ![imagevarlog](https://github.com/user-attachments/assets/575d8183-423d-4166-8aac-9561810126bb)
 <br>
+Lokien analysointi onkin hieman hankalampi asia, yritän lonkalta ensin ja sitten haen tietoa internetistä.<br><br>
+Vasemmalla näkyy 127.0.0.1, tämä on localhost IP-osoite.
+Päivämäärän jälkeen lukee GET, en tiedä mitä tässä tarkoittanee, paitsi jonkun asian hakemista. 
+Sen jälkeen /icons/openlogo-75.png, selkeästi joku kuvatiedosto logosta. "Mozilla/5.0", olisikohan Firefoxin versio, tai tuo "Firefox/115.0".<br><br>
 
+Arvailut sikseen, aika etsiä tietoa.
 
 
 
