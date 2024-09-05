@@ -75,9 +75,14 @@ Yritetään etsiä lokista tietoja: "sudo journalctl" ei näytä ainakaan vielä
 
 ![imagejournalctl](https://github.com/user-attachments/assets/d35b2147-6a58-4ddd-82f8-39b086968224)<br>
 
-Kokeillaan hakea lokit toista kautta:
+Kokeillaan hakea lokit toista kautta:<br>
 
->
+> sudo tail /var/log/apache2/access.log<br>
+
+![imagevarlog](https://github.com/user-attachments/assets/f0700c5c-757f-4b52-9ba8-cea2c12a77ff)<br>
+
+
+
 
 
 
