@@ -46,7 +46,7 @@ Tätä on vaikea tiivistää, kun on kohtuullisen tiivis sivu jo valmiiksi:
 
 ## a) Testaa, että weppipalvelimesi vastaa localhost-osoitteesta. Asenna Apache-weppipalvelin, jos se ei ole jo asennettuna.
 
-*Aloitus 5.9.2024 klo 12:55*<br>
+*Aloitus 5.9.2024 klo 12:55*<br><br>
 Apache2 ehdin asentaa eilen tunnilla<br>
 > sudo apt-get install apache2<br>
 
@@ -70,7 +70,7 @@ Näkyy toimivan sekin:<br>
 
 ## b) Etsi lokista rivit, jotka syntyvät, kun lataat omalta palvelimeltasi yhden sivun. Analysoi rivit (eli selitä yksityiskohtaisesti jokainen kohta ja numero, etsi tarvittaessa lähteitä).
 
-*Aloitus 5.9.2024 klo 13:10*<br>
+*Aloitus 5.9.2024 klo 13:10*<br><br>
 Yritetään etsiä lokista tietoja: "sudo journalctl" ei näytä ainakaan vielä tietoja.<br>
 
 ![imagejournalctl](https://github.com/user-attachments/assets/d35b2147-6a58-4ddd-82f8-39b086968224)<br>
@@ -79,12 +79,26 @@ Kokeillaan hakea lokit toista kautta:<br>
 
 > sudo tail /var/log/apache2/access.log<br>
 
-![imagevarlog](https://github.com/user-attachments/assets/f0700c5c-757f-4b52-9ba8-cea2c12a77ff)<br>
+![imagevarlog](https://github.com/user-attachments/assets/575d8183-423d-4166-8aac-9561810126bb)
+<br>
 
 
 
 
 
+
+
+
+
+
+
+##
+
+##
+
+##
+
+##
 
 ## Lähteet
 
