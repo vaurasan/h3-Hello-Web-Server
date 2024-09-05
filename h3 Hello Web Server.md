@@ -25,8 +25,18 @@ The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentatio
 - Tulisi aina käyttää Name-based virtual hostingia, jos suinkin laitteisto ei muuta vaadi
 - Historialliset syyt eivät enää päde IP-based Virtual hostingiin<br>
 
-[Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
-
+[Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)<br>
+Tätä on vaikea tiivistää, kun on kohtuullisen tiivis sivu jo valmiiksi:
+- Yleensä käytössä on yksi IP-osoite ja monta web-sivua hostattavana, Apachen kanssa voi pitää useita verkkotunnuksia yhdellä IP-osoitteella
+- Asennetaan apache2 ja konfiguroidaan web palvelin
+> $ sudo apt-get -y install apache2<br>
+> $ echo "Default"|sudo tee /var/www/html/index.html
+- Lisätään uusi Name Based Virtual Host
+> $ sudoedit /etc/apache2/sites-available/pyora.example.com.conf
+> $ cat /etc/apache2/sites-available/pyora.example.com.conf
+> $ sudo a2ensite pyora.example.com
+- Uudelleenkäynnistetään eli restartataan apache2
+> $ sudo systemctl restart apache2
 
 
 
