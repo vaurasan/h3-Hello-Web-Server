@@ -23,6 +23,7 @@ The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentatio
 - Name-based virtual hostingissa moni isäntä voi käyttää samaa IP-osoitetta
 - Name-based virtual hosting usein yksinkertaisempaa, kuin IP-based Virtual Host
 - Tulisi aina käyttää Name-based virtual hostingia, jos suinkin laitteisto ei muuta vaadi
+- Historialliset syyt eivät enää päde IP-based Virtual hostingiin
 - 
 
 
