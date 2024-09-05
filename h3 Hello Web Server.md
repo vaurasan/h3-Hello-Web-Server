@@ -40,7 +40,9 @@ Tätä on vaikea tiivistää, kun on kohtuullisen tiivis sivu jo valmiiksi:
 - Luodaan web sivu normaalikäyttäjänä
 > $ mkdir -p /home/xubuntu/publicsites/pyora.example.com/<br>
 > $ echo pyora > /home/xubuntu/publicsites/pyora.example.com/index.html
-
+- Viimeisenä koeajo
+> $ curl -H 'Host: pyora.example.com' localhost<br>
+> $ curl localhost
 
 
 
