@@ -55,10 +55,10 @@ Laitan seuraavan komennon, jotta apache2 käynnistyy, kun käyttöjärjestelmä 
 
 ![apache2now](https://github.com/user-attachments/assets/7703ac20-b2c8-47aa-a658-11d452ff7ea8)<br>
 
-Seuraavaksi kokeillaan localhostia:
+Seuraavaksi kokeillaan localhostia komentokehotteessa:
 > curl http://localhost<br>
 
-Ruudulle tulee html:ää, joten oletan toimivan, kokeillaan vielä Firefoxilla<br>
+Ruudulle tulee html:ää, eli localhost toimii, kokeillaan vielä Firefoxilla<br>
 
 ![toimii](https://github.com/user-attachments/assets/7cde5b4d-7fed-4d67-98c6-28c96543fa47)<br>
 
