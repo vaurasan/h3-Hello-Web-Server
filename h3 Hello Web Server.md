@@ -58,7 +58,7 @@ Laitan seuraavan komennon, jotta apache2 käynnistyy, kun käyttöjärjestelmä 
 Seuraavaksi kokeillaan localhostia komentokehotteessa:
 > curl http://localhost<br>
 
-Localhost toimii:<br>
+Localhost toimii komentokehotteessa:<br>
 
 ![toimii](https://github.com/user-attachments/assets/7cde5b4d-7fed-4d67-98c6-28c96543fa47)<br>
 
@@ -80,6 +80,8 @@ Yritetään etsiä lokista tietoja: "sudo journalctl" ei näytä ainakaan vielä
 Kokeillaan hakea lokit toista kautta:<br>
 
 > sudo tail /var/log/apache2/access.log<br>
+
+"tail" näyttää lokit tiedoston loppupäästä.<br>
 
 ![imagevarlog](https://github.com/user-attachments/assets/575d8183-423d-4166-8aac-9561810126bb)
 <br>
