@@ -238,7 +238,9 @@ Kokeilin vielä käydä muuttamassa tekstiä, jotta saan ETagin muuttumaan:<br>
 
 *Valmis klo 11:09, aikaa kului 39min*
 
-##
+## m) Vapaaehtoinen, suosittelen tekemään: Hanki GitHub Education -paketti
+
+Tämän hankin GitHubin ohjeiden mukaan.
 
 ## Lähteet
 
