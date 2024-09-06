@@ -232,7 +232,7 @@ https://curl.se/docs/tutorial.html <- Täällä myös hyvin selitetty asioita.<b
 **Vary** = en aivan täysin ymmärrä tämän toimintaa, mutta se toimii jonkunlaisena validaattorina: https://www.smashingmagazine.com/2017/11/understanding-vary-header/<br>
 **Content-Type** = kertoo minkälaista sisältöä sivu sisältää. Tässä tapauksessa sekä tekstiä, että html:ää.<br>
 
-Kokeilin vielä käydä muuttamassa tekstiä, jotta saan ETagin muuttumaan:<br>
+Kokeilin vielä käydä muuttamassa web-sivun tekstiä, jotta saan ETagin muuttumaan:<br>
 
 ![imageetag](https://github.com/user-attachments/assets/6749b67e-d9a8-4ae8-a327-320133ffa75c)<br>
 
