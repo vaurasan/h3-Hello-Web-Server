@@ -215,6 +215,27 @@ Nyt hattu.example.com näyttää tältä:<br>
 https://curl.github.io/curl-cheat-sheet/http-sheet.html Kätevä muistikartta "curl":n käytöstä.<br>
 https://curl.se/docs/tutorial.html <- Täällä myös hyvin selitetty asioita.<br>
 
+"curl" palauttaa web-palvelimen pääsivun:<br>
+
+![image-curl](https://github.com/user-attachments/assets/85f4e960-eaab-4ab5-9973-206a7be1697b)<br>
+
+"curl -I" palauttaa web-sivun yksityiskohtaisia tietoja:<br>
+
+![imagecurl-I](https://github.com/user-attachments/assets/976bffaf-5497-4899-ba4f-4b3fd89f8511)<br>
+
+**Date** = päivämäärä<br>
+**Server** = palvelin, versio ja käyttöjärjestelmä<br>
+**Last-Modified** = viimeksi muokattu pvm, klo<br>
+**Etag** = Entity Tag, eli kyseisen resurssin identifiointitunnus. Auttaa vähentämään esimerkiksi kuormitusta ja turhia päällekkäisiä päivityksiä: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag<br>
+**Accept-Ranges** = kertoo tässä tapauksessa, että range requestit vastaanotetaan tavuina: https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests<br>
+**Content-Length** = messagen pituus tavuina: https://reqbin.com/req/curl/b3tqmhxa/post-request-with-content-length-header<br>
+**Vary** = en aivan täysin ymmärrä tämän toimintaa, mutta se toimii jonkunlaisena validaattorina: https://www.smashingmagazine.com/2017/11/understanding-vary-header/<br>
+**Content-Type** = kertoo minkälaista sisältöä sivu sisältää. Tässä tapauksessa tekstiä, sekä html:ää.<br>
+
+
+
+
+
 
 
 ##
