@@ -249,9 +249,7 @@ Karvinen, T. 2012. Short HTML5 page. Luettavissa: https://terokarvinen.com/2012/
 Karvinen, T. 2018. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/. Luettu 5.9.2024<br>
 The Apache Foundation. 2024. Name-based Virtual Host Support. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html. Luettu 5.9.2024
 
-
-
-<br><br>
+<br>
 
 ---
 
