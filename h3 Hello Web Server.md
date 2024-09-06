@@ -109,8 +109,17 @@ Unohdin katsoa vielä "sudo tail /var/log/apache2/error.log":lla virhelokit. Tee
 
 ![imageapacheerrorlog](https://github.com/user-attachments/assets/e457d7e2-ec00-4427-a267-94eeedf108fb)<br>
 
+https://stackify.com/apache-error-log-explained/ täältä löytyy tietoa näistä virhelokeista.<br>
+https://httpd.apache.org/docs/2.4/mpm.html myös täältä.<br>
+https://httpd.apache.org/docs/current/logs.html<br>
 
+Kuvassa näkyy:<br>
+- "mpm_event" eli Multi-Processing Modules, "notice" eli ei vakava virhe, mutta lähinnä ilmoitusasia
+- "pid" eli prosessin id numero
+- "tid" eli "thread id"
+- "core" eli ydin
 
+*Valmis klo 8:44*
 
 ## c) Etusivu uusiksi. Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä
 
