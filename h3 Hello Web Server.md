@@ -123,7 +123,38 @@ Kuvassa näkyy:<br>
 
 ## c) Etusivu uusiksi. Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä
 
-Tätä varten täytyy hieman perehtyä aiheeseen ennen suoritusta.
+*Aloitus 6.9.2024 klo 9:01*<br>
+
+Komennolla "echo "hattu.example.com"|sudo tee /var/www/html/index.html" lähdetään päällekirjoittamaan index.html tiedostoa.<br>
+
+![image](https://github.com/user-attachments/assets/e63d6535-37aa-4c6e-b717-1bb26cd5c81c)<br>
+
+Lisätään Name Based Virtual Host:<br>
+
+> sudoedit /etc/apache2/sites-available/hattu.example.com.conf<br>
+
+Lisätään tiedot:<br>
+
+![imageconffi](https://github.com/user-attachments/assets/605f74a0-d1de-4765-bee2-0d892da81633)<br>
+
+Ajetaan "sudo a2ensite hattu.example.com" ja käynnistetään apache2 uudestaan komennolla "sudo systemctl restart apache2"<br>
+
+![imagea2ensite-restart](https://github.com/user-attachments/assets/8885c74e-730b-4c99-9c7e-2e24cf684a6c)<br>
+
+Kokeillaan tehdä web sivu normaalina käyttäjänä:<br>
+
+> mkdir -p /home/xubuntu/publicsites/hattu.example.com/<br>
+
+"Permission denied"<br>
+![image-denied](https://github.com/user-attachments/assets/ffd35fdf-98f8-4bed-ae74-c47bbbd81e20)<br>
+
+
+
+
+ff
+
+
+
 
 ##
 
