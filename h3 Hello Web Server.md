@@ -105,7 +105,9 @@ Tässä välissä itsestäänselvyytenä päivämäärä, sekä aika ja aikavyö
 
 *Valmis klo 13:49, aikaa kului 39min*
 
-##
+## c) Etusivu uusiksi. Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä
+
+Tätä varten täytyy hieman perehtyä aiheeseen ennen suoritusta.
 
 ##
 
