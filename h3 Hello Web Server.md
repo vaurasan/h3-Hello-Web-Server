@@ -96,7 +96,7 @@ Lisäksi käytin myös tätä: https://developer.mozilla.org/en-US/docs/Web/HTTP
 Sekä: https://disjoint.ca/til/2016/05/17/how-to-determine-the-file-size-of-a-remote-http-object/.<br>
 
 Eli ensimmäisenä **127.0.0.1** IP osoite, josta pyyntö tuli.<br>
-Tässä välissä itsestäänselvyytenä päivämäärä, sekä aika ja aikavyöhyke.<br>
+Tässä välissä itsestäänselvyytenä **päivämäärä**, sekä **aika** ja **aikavyöhyke**.<br>
 **GET / HTTP/1.1** pyynnön tyyppi, sekä "GET" ja "HTTP1.1" välissä se mitä pyydetään.<br>
 **200** HTTP vastauksen status koodi. "200" viittaa onnistuneeseen pyyntöön. Kyseessä on "GET" tyyppinen pyyntö, jolloin 200 tarkoittaa, että resurssi on onnistuneesti haettu ja toimitettu.<br>
 **6040** asiakkaalle palautetun objektin koko byteinä, eli tavuina, tässä tapauksessa 6040 tavua, eli 6040 bytes.<br>
@@ -114,10 +114,10 @@ https://httpd.apache.org/docs/2.4/mpm.html myös täältä.<br>
 https://httpd.apache.org/docs/current/logs.html<br>
 
 Kuvassa näkyy:<br>
-- "mpm_event" eli Multi-Processing Modules, "notice" eli ei vakava virhe, mutta lähinnä ilmoitusasia
-- "pid" eli prosessin id numero
-- "tid" eli "thread id"
-- "core" eli ydin
+**mpm_event** eli Multi-Processing Modules, "notice" eli ei vakava virhe, mutta lähinnä ilmoitusasia
+**pid** eli prosessin id numero
+**tid** eli "thread id"
+**core** eli ydin
 
 *Valmis klo 8:44 aikaa kului 14min*
 
