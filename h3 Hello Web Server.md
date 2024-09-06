@@ -194,7 +194,22 @@ Nyt näyttää toimivan<br>
 
 ## e) Tee validi HTML5 sivu
 
-*Aloitus klo *
+*Aloitus klo 10:17*<br>
+
+Tähän tietenkin Karvisen (2012) ohjeet: https://terokarvinen.com/2012/short-html5-page/<br>
+
+Menen kansioon /home/santeri/publicsites/hattu.example.com/ ja sieltä muokkaan "micro edit index.html"<br>
+
+![image-html5](https://github.com/user-attachments/assets/9468101f-37e1-4f6c-b808-bc7ab8a8df32)
+<br>
+Nyt hattu.example.com näyttää tältä:<br>
+
+![imagefox3](https://github.com/user-attachments/assets/a1987840-0f5f-40f8-8d67-a839120100c1)<br>
+
+
+
+
+
 
 ##
 
@@ -203,6 +218,7 @@ Nyt näyttää toimivan<br>
 ## Lähteet
 
 Fizpatrick, S. 2020. Understanding the Apache Access Log: View, Locate and Analyze. Luettavissa: https://www.sumologic.com/blog/apache-access-log/. Luettu 5.9.2024<br>
+Karvinen, T. 2012. Short HTML5 page. Luettavissa: https://terokarvinen.com/2012/short-html5-page/. Luettu 6.9.2024
 Karvinen, T. 2018. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/. Luettu 5.9.2024<br>
 The Apache Foundation. 2024. Name-based Virtual Host Support. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html. Luettu 5.9.2024
 
