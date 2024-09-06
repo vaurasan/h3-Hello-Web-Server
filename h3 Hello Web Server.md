@@ -206,12 +206,16 @@ Nyt hattu.example.com näyttää tältä:<br>
 
 ![imagefox3](https://github.com/user-attachments/assets/a1987840-0f5f-40f8-8d67-a839120100c1)<br>
 
+*Valmis klo 10:28, aikaa meni 11min*
+
+## f) Anna esimerkit 'curl -I' ja 'curl' -komennoista. Selitä 'curl -I' muutamasta näyttämästä otsakkeesta (response header), mitä ne tarkoittavat
+
+*ALoitus klo 10:30, kahvin keiton lomassa luen lisää curleista*<br>
+
+https://curl.github.io/curl-cheat-sheet/http-sheet.html Kätevä muistikartta "curl":n käytöstä.<br>
+https://curl.se/docs/tutorial.html <- Täällä myös hyvin selitetty asioita.<br>
 
 
-
-
-
-##
 
 ##
 
