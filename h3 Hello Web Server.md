@@ -238,7 +238,7 @@ Kokeilin vielä käydä muuttamassa web-sivun tekstiä, jotta saan ETagin muuttu
 
 *Valmis klo 11:09, aikaa kului 39min*<br>
 
-Bonus, "curl -i" palauttaa sekä "curl":n
+Bonus, "curl -i" palauttaa sekä "curl":n, että "curl -I":n (tätä riviä muokattu myöhemmin keskeneräisen lauseen vuoksi)
 
 ![imagecurliii](https://github.com/user-attachments/assets/c294091c-5e59-4063-97ed-902fee655012)
 
