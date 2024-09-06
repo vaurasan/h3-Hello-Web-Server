@@ -103,7 +103,14 @@ Tässä välissä itsestäänselvyytenä päivämäärä, sekä aika ja aikavyö
 **http://localhost** viittaa osoitteeseen, josta pyyntö on tullut.<br>
 **Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0** on ympäristö, josta käyttäjä käyttää kyseistä palvelua. Tässä tapauksessa Mozilla Firefox Linuxilla.<br>
 
-*Valmis klo 13:49, aikaa kului 39min*
+*Valmis klo 13:49, aikaa kului 39min*<br>
+
+Unohdin katsoa vielä "sudo tail /var/log/apache2/error.log":lla virhelokit. Teen sen nyt *6.9.2024 klo 8:30*<br>
+
+![imageapacheerrorlog](https://github.com/user-attachments/assets/e457d7e2-ec00-4427-a267-94eeedf108fb)<br>
+
+
+
 
 ## c) Etusivu uusiksi. Tee uusi name based virtual host. Sivun tulee näkyä suoraan palvelimen etusivulla http://localhost/. Sivua pitää pystyä muokkaamaan normaalina käyttäjänä, ilman sudoa. Tee uusi, laita vanhat pois päältä. Uusi sivu on hattu.example.com, ja tämän pitää näkyä: asetustiedoston nimessä, asetustiedoston ServerName-muuttujassa sekä etusivun sisällössä
 
