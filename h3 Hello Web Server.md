@@ -148,6 +148,10 @@ Kokeillaan tehdä web sivu normaalina käyttäjänä:<br>
 "Permission denied"<br>
 ![image-denied](https://github.com/user-attachments/assets/ffd35fdf-98f8-4bed-ae74-c47bbbd81e20)<br>
 
+Vaihdoin "xubuntu" nimen "santeri":ksi. Nyt kansioiden luonti onnistui. Täytyy vain käydä vielä muokkaamassa .conf tiedostoon sama.<br>
+
+> sudoedit /etc/apache2/sites-available/hattu.example.com.conf<br>
+
 
 
 
