@@ -230,7 +230,7 @@ https://curl.se/docs/tutorial.html <- Täällä myös hyvin selitetty asioita.<b
 **Accept-Ranges** = kertoo tässä tapauksessa, että range requestit vastaanotetaan tavuina: https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests<br>
 **Content-Length** = messagen pituus tavuina: https://reqbin.com/req/curl/b3tqmhxa/post-request-with-content-length-header<br>
 **Vary** = en aivan täysin ymmärrä tämän toimintaa, mutta se toimii jonkunlaisena validaattorina: https://www.smashingmagazine.com/2017/11/understanding-vary-header/<br>
-**Content-Type** = kertoo minkälaista sisältöä sivu sisältää. Tässä tapauksessa tekstiä, sekä html:ää.<br>
+**Content-Type** = kertoo minkälaista sisältöä sivu sisältää. Tässä tapauksessa sekä tekstiä, että html:ää.<br>
 
 Kokeilin vielä käydä muuttamassa tekstiä, jotta saan ETagin muuttumaan:<br>
 
