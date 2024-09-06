@@ -172,6 +172,8 @@ Ajoin uudelleen samat komennot tuolta alusta lähtien, nyt "curl -H 'Host: hattu
 Ja "curl localhost" seuraavaa:<br>
 ![image-curl.local](https://github.com/user-attachments/assets/93d20964-af02-467b-bd7c-daa1494433b2)<br>
 
+*Tauko klo 9:46, aikaa käytetty 45min*<br>
+
 
 
 
