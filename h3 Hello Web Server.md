@@ -173,21 +173,28 @@ Ja "curl localhost" seuraavaa:<br>
 ![image-curl.local](https://github.com/user-attachments/assets/93d20964-af02-467b-bd7c-daa1494433b2)<br>
 
 *Tauko klo 9:46, aikaa käytetty 45min*<br>
+*Jatkuu klo 10:04*<br>
+
+Tuossa tauolta palatessa katsoin seuraavaa videota: https://www.youtube.com/watch?v=1CDxpAzvLKY. Videon innoittamana menin "sudoedit /etc/hosts" ja lisäsin sinne localhostin jälkeen seuraavat rivit:<br>
+> 127.0.1.1 hattu<br>
+> 127.0.0.1 hattu.example.com<br>
+
+![imagehosts](https://github.com/user-attachments/assets/0a272189-f5b3-4501-95cc-bec9ca665714)<br>
 
 
+Nyt näyttää toimivan<br>
 
+![image-toimii](https://github.com/user-attachments/assets/4658a10d-3ee9-4856-a3d2-e24c68fe5824)<br>
 
+![imagefox1](https://github.com/user-attachments/assets/e5602298-1b41-4d4a-99dd-b407859d7009)<br>
 
+![imagefox2](https://github.com/user-attachments/assets/adea9980-a827-4e41-80c1-916cc557f0ff)<br>
 
+*Valmis klo 10:14, aikaa meni yhteensä 55min*
 
+## e) Tee validi HTML5 sivu
 
-
-ff
-
-
-
-
-##
+*Aloitus klo *
 
 ##
 
