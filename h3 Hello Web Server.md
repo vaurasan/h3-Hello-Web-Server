@@ -148,9 +148,34 @@ Kokeillaan tehdä web sivu normaalina käyttäjänä:<br>
 "Permission denied"<br>
 ![image-denied](https://github.com/user-attachments/assets/ffd35fdf-98f8-4bed-ae74-c47bbbd81e20)<br>
 
-Vaihdoin "xubuntu" nimen "santeri":ksi. Nyt kansioiden luonti onnistui. Täytyy vain käydä vielä muokkaamassa .conf tiedostoon sama.<br>
+Vaihdoin "xubuntu" nimen "santeri":ksi. Nyt kansioiden luonti onnistui. Täytyy vain käydä vielä muokkaamassa .conf tiedostoon xubuntujen tilalle santeri<br>
 
 > sudoedit /etc/apache2/sites-available/hattu.example.com.conf<br>
+
+> echo hattu > /home/santeri/publicsites/hattu.example.com/index.html<br>
+
+Nyt voidaan testata web sivua:<br>
+
+> curl -H 'Host: hattu.example.com' localhost<br>
+
+Ei oikeutta tähän resurssiin<br>
+
+![imagedenied-2](https://github.com/user-attachments/assets/278558a0-a3c7-4cb9-b036-16f9af18b816)<br>
+
+Luon uudestaan kansion: "mkdir -p /home/santeri/publicsites/hattu.example.com/" ja varmuudeksi "echo hattu > /home/santeri/publicsites/hattu.example.com/index.html"<br>
+
+Edelleen sama error, ei oikeutta.<br>
+
+Ajoin uudelleen samat komennot tuolta alusta lähtien, nyt "curl -H 'Host: hattu.example.com' localhost", ohjeen "Default" tekstiin kirjoitin "hattu", nyt komento antaa seuraavan:<br>
+![imagehattu](https://github.com/user-attachments/assets/e5c3a535-8964-4405-a220-dd58261153fb)<br>
+
+Ja "curl localhost" seuraavaa:<br>
+![image-curl.local](https://github.com/user-attachments/assets/93d20964-af02-467b-bd7c-daa1494433b2)<br>
+
+
+
+
+
 
 
 
