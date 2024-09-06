@@ -114,10 +114,10 @@ https://httpd.apache.org/docs/2.4/mpm.html myös täältä.<br>
 https://httpd.apache.org/docs/current/logs.html<br>
 
 Kuvassa näkyy:<br>
-**mpm_event** eli Multi-Processing Modules, "notice" eli ei vakava virhe, mutta lähinnä ilmoitusasia
-**pid** eli prosessin id numero
-**tid** eli "thread id"
-**core** eli ydin
+**mpm_event** eli Multi-Processing Modules, "notice" eli ei vakava virhe, mutta lähinnä ilmoitusasia<br>
+**pid** eli prosessin id numero<br>
+**tid** eli "thread id"<br>
+**core** eli ydin<br>
 
 *Valmis klo 8:44 aikaa kului 14min*
 
@@ -182,7 +182,7 @@ Tuossa tauolta palatessa katsoin seuraavaa videota: https://www.youtube.com/watc
 ![imagehosts](https://github.com/user-attachments/assets/0a272189-f5b3-4501-95cc-bec9ca665714)<br>
 
 
-Nyt näyttää toimivan<br>
+Nyt näyttää toimivan (muutin localhostin Defaultiksi välissä)<br>
 
 ![image-toimii](https://github.com/user-attachments/assets/4658a10d-3ee9-4856-a3d2-e24c68fe5824)<br>
 
