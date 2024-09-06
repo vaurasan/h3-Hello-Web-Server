@@ -236,7 +236,12 @@ Kokeilin vielä käydä muuttamassa web-sivun tekstiä, jotta saan ETagin muuttu
 
 ![imageetag](https://github.com/user-attachments/assets/6749b67e-d9a8-4ae8-a327-320133ffa75c)<br>
 
-*Valmis klo 11:09, aikaa kului 39min*
+*Valmis klo 11:09, aikaa kului 39min*<br>
+
+Bonus, "curl -i" palauttaa sekä "curl":n
+
+![imagecurliii](https://github.com/user-attachments/assets/c294091c-5e59-4063-97ed-902fee655012)
+
 
 ## m) Vapaaehtoinen, suosittelen tekemään: Hanki GitHub Education -paketti
 
