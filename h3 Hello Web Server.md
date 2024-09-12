@@ -247,6 +247,17 @@ Bonus, "curl -i" palauttaa sekä "curl":n, että "curl -I":n (tätä riviä muok
 
 Tämän hankin GitHubin ohjeiden mukaan.
 
+## edit) 12.9.2024
+
+Jälkikäteen tajusin, kuinka kohdan e) HTML5-sivu validoidaan oikein.<br>
+Tässä kuvassa HTML-koodia muokattu niin, että validaattori päästää läpi:<br>
+
+![imagevalidator](https://github.com/user-attachments/assets/9ba01e97-f223-47ef-b485-ffaab1815c78)<br>
+
+Validaattori löytyy osoitteesta: [https://validator.w3.org/](https://validator.w3.org/).<br>
+Välilehdellä "Validate by Direct Input" pystyy syöttämään suoraan HTML-koodin tekstikenttään.
+
+
 ## Lähteet
 
 Fizpatrick, S. 2020. Understanding the Apache Access Log: View, Locate and Analyze. Luettavissa: https://www.sumologic.com/blog/apache-access-log/. Luettu 5.9.2024<br>
